@@ -1,0 +1,173 @@
+/* Variables */
+:root {
+    --primary-color:  #69a5bc;
+  }
+  
+  body {
+    background-color: rgb(222, 207, 207);
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+  }
+   
+main {
+    padding: 10px;
+    
+}
+  .hero {
+    background-image: url(../images/header.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .hero .image {
+    max-width: 100%;
+  }
+  .title {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px
+  }
+  
+  .navbar {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+  }
+  
+  .navbar .menu {
+    display: flex;
+  }
+  
+  .navbar .menu .link {
+    margin: 0 10px;
+    font-size: 12px;
+  }
+  
+  /* Hover de los links */
+  .link:hover {
+    transition: color 0.3s linear;
+    font-weight: bolder;
+    color: rgb(243, 60, 179);
+  }
+  
+  .navbar img.logo {
+    width: 15%;
+    max-width: 80px;
+  }
+  
+  @media screen and (min-width: 576px) {
+    .navbar .menu .link{
+      font-size: 25px;
+    }
+  }
+
+  .aboutme {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .skillset {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .myskills {
+    width: 600px ;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 0px;
+  }
+
+.container {
+    width: 100%;
+    background-color:#ddd;
+}
+
+.skills {
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.html {
+
+    background-color: #04aa6d;
+    animation: fillhtml 2s forwards;
+}
+
+.css {
+
+    background-color: #38207f;
+    animation: fillcss 2s forwards;
+}
+
+.python {
+
+    background-color: #ffd500;
+    animation: fillpython 2s forwards;
+}
+
+.js {
+
+    background-color: #fe00a1;
+    animation: filljs 2s forwards;
+}
+@keyframes fillhtml {
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+@keyframes fillcss {
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+
+@keyframes fillpython {
+    0%{width: 0;}
+    100%{width: 50%;}
+}
+
+@keyframes filljs {
+    0%{width: 0;}
+    100%{width: 30%;}
+}
+  .contact {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+  }
+
+  .where {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+  }
+
+  .footer {
+    background: #ffc3c3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  ul {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    width:100%;
+    justify-content: center;
+  }
+  
+  .rrss_logo {
+    width: 75px;
+  } 
