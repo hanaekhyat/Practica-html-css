@@ -6,14 +6,23 @@
   body {
     background-color: rgb(222, 207, 207);
     color: rgb(0, 0, 0);
-    font-family: Helvetica, sans-serif;
+    font-family: monospace, sans-serif;
     font-size: 18px;
     margin: 0;
   }
    
 main {
     padding: 10px;
+
     
+}
+
+.p1 {
+    line-height: 20px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
   .hero {
     background-image: url(../images/header.jpg);
@@ -24,12 +33,11 @@ main {
     background-position: center;
     display: flex;
     justify-content: center;
+    max-width: 100%;
     
   }
 
-  .hero .image {
-    max-width: 100%;
-  }
+
   .title {
     background-color: rgb(255, 255, 255);
     color: black;
@@ -42,7 +50,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(136, 248, 248);
   }
   
   .navbar .menu {
@@ -55,23 +63,14 @@ main {
   }
   
   /* Hover de los links */
-  .link:hover {
-    transition: color 0.3s linear;
-    font-weight: bolder;
-    color: rgb(243, 60, 179);
-  }
+  
   
   .navbar img.logo {
     width: 15%;
     max-width: 80px;
   }
   
-  @media screen and (min-width: 576px) {
-    .navbar .menu .link{
-      font-size: 25px;
-    }
-  }
-
+  
   .aboutme {
     font-size: 20px;
     margin: 10px;
@@ -81,14 +80,16 @@ main {
     font-size: 20px;
     margin: 10px;
     font-weight: bold;
+    
+   
   }
   .myskills {
-    width: 600px ;
-    margin: auto;
+    max-width: 100%;
+    margin: 0;
     border: 1px solid #ccc;
-    padding: 0px;
-  }
+    line-height: 25px;
 
+  }
 .container {
     width: 100%;
     background-color:#ddd;
@@ -143,17 +144,33 @@ main {
     100%{width: 30%;}
 }
   .contact {
+    padding-top: 20px;
     font-size: 20px;
     margin: 10px;
     font-weight: bold;
   }
+.contacts {
+    line-height: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 
+    
   .where {
     font-size: 20px;
     margin: 10px;
     font-weight: bold;
+    padding-bottom: 20px;
   }
 
+  .submit {
+    padding-top: 20px;
+    border-color: #38207f;
+
+
+  }
   .footer {
     background: #ffc3c3;
     padding-top: 10px;
@@ -166,8 +183,28 @@ main {
     font-weight: bold;
     width:100%;
     justify-content: center;
+
   }
   
   .rrss_logo {
-    width: 75px;
+    width: 60px;
+    align-content: space-between
+    
   } 
+  .navbar .menu {
+    display: none;
+  }
+ 
+  @media screen and (min-width: 576px) {
+    .navbar .menu{
+      display: flex;
+    }
+  }
+  .link:hover {
+    transition: color 0.3s linear;
+    font-weight: bolder;
+    color: rgb(243, 60, 179);
+  }
+  
+
+  
