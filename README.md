@@ -1,3 +1,1 @@
-# Practica-html-css
-Fundamentos Web: HTML5, CSS3
-Creación de un portfolio
+For this practice, we had to create a website using only HTML and CSS and within a short period of time. I have decided to use a character from my childhood and managed to create a far from perfect website but one I am proud of. 
