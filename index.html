@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="Styles/reset.css">
+  <link rel="stylesheet" href="/Styles/main.css">
+</head>
+
+<body>
+  <!-- Cabecera -->
+   <header>
+    <nav class="navbar">
+      <img class="logo" src="images/logo.png" alt="logo">
+      <ul class="menu">
+        <li>
+          <a class="link" href="#">Projects</a>
+        </li>
+        <li>
+          <a class="link" href="#">Skills</a>
+        </li>
+        <li>
+          <a class="link" href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <!-- Hero -->
+    <div class="hero">
+      <h1 class="title">My portfolio</h1>
+    </div>
+
+  <main>
+    <!-- About -->
+    <div>
+      <h2 class="aboutme">About me</h2>
+      <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed facere culpa ducimus quasi architecto dolorem omnis vero, fuga, necessitatibus reiciendis vitae dignissimos iusto inventore quibusdam? Qui impedit quasi possimus laboriosam</p>
+    </div>
+
+    <!--Animated bars-->
+    
+  <div class="myskills">
+    <h3>My Skills</h3>
+      <p>HTML</p>
+      <div class="container">
+        <div class="skills html">90%</div>
+        </div>
+      <p>CSS</p>
+      <div class="container">
+        <div class="skills css">70%</div>
+      </div>
+      <p>Python</p>
+      <div class="container">
+        <div class="skills python">50%</div>
+      </div>
+      <p>JavaScript<p>
+      <div class="container">
+        <div class="skills js">30%</div>
+      </div>
+  </div>
+      
+      <h4 class="contact">Contact me</h3>
+      <!-- Formulario -->
+      <form action="#" method="post">
+        <!-- Fieldset (bloque) 1 -->
+        <fieldset>
+          <div>
+            <label for="name">Name:</label>
+            <input required id="name" name="name" type="text" placeholder="Please add your name">
+          </div>
+          <div>
+            <label for="last name">Last Name:</label>
+            <input required id="lastname" name="lastname" type="text" placeholder="Please add your last name">
+          </div>
+          
+          <div>
+            <label for="phone">Phone Number:</label>
+            <input required id="phonenumber" name="phonenumber" type="number" placeholder="Please add your phone number" pattern="[0-9]+">
+          </div>
+          <div>
+            <label for="gitHub">GitHub username:</label>
+            <input required id="github" name="github" type="text" placeholder="Please use this format: (@<username>)" pattern="^@[^\s]+">
+          </div>
+        </fieldset>
+        <!-- Fieldset (bloque) 2 -->
+        <fieldset>
+          <h5 class="where">Where did you find out about me?</h4>
+          <div>
+            <label for="university">University</label>
+            <input required id="university" type="radio" name="channel" value="university">
+          </div>
+          
+          <div>
+            <label for="keepcoding">KeepCoding kick off</label>
+            <input required id="keepcoding" type="radio" name="channel" value="keepcoding">
+          </div>
+          <div>
+            <label for="school">School</label>
+            <input required id="school" type="radio" name="channel" value="school">
+          </div>
+          <div>
+            <label for="github">GitHub</label>
+            <input required id="github" type="radio" name="channel" value="net">
+          </div>
+          <div>
+            <label for="moreinfo">More information:</label>
+            <textarea required id="moreinfo" name="moreinfo" maxlenght="300" placeholder="What else would you like to know? (Max 300 characters)"></textarea>
+          </div>
+        </fieldset>
+        <!-- Fieldset (bloque) 3 -->
+        <fieldset>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+  </main>
+  <!-- Footer -->
+  <footer class="footer" >
+    <ul>
+      <li>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img class="rrss_logo" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="instagram">
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img class="rrss_logo" src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" alt="linkedin">
+        </a>
+      </li>
+
+      <li>
+        <a href="https://twitter.com/" target="_blank">
+          <img class="rrss_logo" src="https://cdn-icons-png.flaticon.com/512/25/25347.png" alt="twitter">
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+</body>
+</html>
