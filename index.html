@@ -37,7 +37,8 @@
     <!-- About -->
     <div>
       <h2 class="aboutme">About me</h2>
-      <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed facere culpa ducimus quasi architecto dolorem omnis vero, fuga, necessitatibus reiciendis vitae dignissimos iusto inventore quibusdam? Qui impedit quasi possimus laboriosam</p>
+      <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Sed facere culpa ducimus quasi architecto dolorem omnis vero, fuga, necessitatibus reiciendis vitae dignissimos iusto inventore quibusdam? Qui impedit quasi possimus laboriosam</p>
     </div>
 
     <!--Animated bars-->
@@ -63,10 +64,10 @@
   </div>
       
       <h4 class="contact">Contact me</h3>
-      <!-- Formulario -->
+      <div class="form">
       <form action="#" method="post">
         <!-- Fieldset (bloque) 1 -->
-        <fieldset>
+        <fieldset class="contacts">
           <div>
             <label for="name">Name:</label>
             <input required id="name" name="name" type="text" placeholder="Please add your name">
@@ -86,36 +87,38 @@
           </div>
         </fieldset>
         <!-- Fieldset (bloque) 2 -->
-        <fieldset>
+        <fieldset class="place">
           <h5 class="where">Where did you find out about me?</h4>
           <div>
             <label for="university">University</label>
             <input required id="university" type="radio" name="channel" value="university">
+            </div>
           </div>
-          
           <div>
             <label for="keepcoding">KeepCoding kick off</label>
             <input required id="keepcoding" type="radio" name="channel" value="keepcoding">
-          </div>
-          <div>
+           </div>
+            <div>
             <label for="school">School</label>
             <input required id="school" type="radio" name="channel" value="school">
-          </div>
-          <div>
+            </div>
+            <div>
             <label for="github">GitHub</label>
             <input required id="github" type="radio" name="channel" value="net">
-          </div>
-          <div>
+            </div>
+            <div>
             <label for="moreinfo">More information:</label>
             <textarea required id="moreinfo" name="moreinfo" maxlenght="300" placeholder="What else would you like to know? (Max 300 characters)"></textarea>
-          </div>
+            </div>
         </fieldset>
+
         <!-- Fieldset (bloque) 3 -->
-        <fieldset>
+        <fieldset class="submit">
           <input type="submit" value="Submit">
         </fieldset>
       </form>
   </main>
+
   <!-- Footer -->
   <footer class="footer" >
     <ul>
